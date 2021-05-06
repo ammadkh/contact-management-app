@@ -8,3 +8,7 @@ and then start the server with the help of
 
 'npm start'.
 
+To run the test;
+
+npm test
+
