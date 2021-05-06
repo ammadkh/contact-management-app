@@ -1,0 +1,13 @@
+<div class="container mt-5">
+  <div class="card">
+    <div class="p-10">
+      <h5 style="background-color: #F8F9FA; padding: 10px">Email Addresses of {{contactName}}</h5>
+      <ul>
+        <li style="padding: 8px;" *ngFor="let email of contactEmails">{{email}}</li>
+      </ul>
+      <div class="text-right mr-3 mb-3">
+        <button class="btn btn-primary prl" (click)="onBack()">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
